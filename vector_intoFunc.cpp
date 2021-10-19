@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-
+/*Nanthana Thanonklin*/
 // C++ program to demonstrate that when vectors
 // are passed to functions without &, a copy is
 // created.
@@ -17,6 +17,7 @@ void func2(std::vector<int> &numbers){
     numbers.push_back(100);
 }
 
+//this function is read only, you can't modify the value inside the function, becasue of const 
 void func3(const std::vector<int> &vect)
 {
     //vect.push_back(30);  // Uncommenting this line would

@@ -50,6 +50,8 @@ void insertAtTheEnd(Node** head, int newValue){
     last->Next = newNode;
 }
 
+void insertAfter(Node* previous)
+
 int main(){
     
     Node *head = new Node(); // the head node, this is the first node in the linkedList

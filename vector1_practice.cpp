@@ -3,6 +3,7 @@
 using namespace std;
 
 int main(){
+    /*Nanthana Thanonklin*/
     
     vector<int> numbers;
     
@@ -46,6 +47,8 @@ int main(){
         cout << (*i * 10) << " "; //add 1 to 10 to vector numbers
     }
     cout << endl;
+
+
    
     return 0;
 }
