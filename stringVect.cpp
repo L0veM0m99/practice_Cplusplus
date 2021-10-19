@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+/*Nanthana Thanonklin*/
 
 //1.-Create a function that takes a vector of strings and reverses each string on the vector.
 void reverseString(const std::vector<std::string> stringVect){
@@ -17,8 +18,12 @@ int main(){
     s.push_back("Inheritance");
     s.push_back("Encapsulation");
   
-    reverseString(s);
+    reverseString(s);ls
     std::cout <<"\n";
     return 0;
 
+    /*nthanonklin practice_Cplusplus (master) >> clang++ -std=c++11 -stdlib=libc++ stringVect.cpp 
+    nthanonklin practice_Cplusplus (master) >> ./a.out
+    msihpromyloP ecnatirehnI noitaluspacnE 
+    */
 }
